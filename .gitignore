@@ -2,3 +2,6 @@ bin
 obj
 *.pidb
 *.userprefs
+.vs/
+packages/
+znull.erlectric.1.0.0.nupkg
