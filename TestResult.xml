@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="15" result="Passed" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="139" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-05-16 12:33:31Z" end-time="2019-05-16 12:33:32Z" duration="0.701350">
+  <command-line><![CDATA["C:\ProgramData\chocolatey\lib\nunit-console-runner\tools\nunit3-console.exe" tests/Erlectric.Tests/bin/Debug/Erlectric.Tests.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1017" name="Erlectric.Tests.dll" fullname="C:\tmp\erlectric\tests\Erlectric.Tests\bin\Debug\Erlectric.Tests.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.170496" total="15" passed="15" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="139">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\tmp\erlectric" machine-name="DESKTOP-A71GHAR" user="vagrant" user-domain="DESKTOP-A71GHAR" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\tmp\erlectric" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="5016" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1018" name="Erlectric" fullname="Erlectric" runstate="Runnable" testcasecount="15" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.146335" total="15" passed="15" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="139">
+      <test-suite type="TestFixture" id="0-1000" name="ErlectricTests" fullname="Erlectric.ErlectricTests" classname="Erlectric.ErlectricTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.141046" total="15" passed="15" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="139">
+        <test-case id="0-1016" name="Test_LARGE_BIG_EXT" fullname="Erlectric.ErlectricTests.Test_LARGE_BIG_EXT" methodname="Test_LARGE_BIG_EXT" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="1952307363" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.043172" asserts="4" />
+        <test-case id="0-1015" name="Test_SMALL_BIG_EXT" fullname="Erlectric.ErlectricTests.Test_SMALL_BIG_EXT" methodname="Test_SMALL_BIG_EXT" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="1173243115" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.000802" asserts="4" />
+        <test-case id="0-1005" name="TestAtom" fullname="Erlectric.ErlectricTests.TestAtom" methodname="TestAtom" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="291770419" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.018174" asserts="7" />
+        <test-case id="0-1006" name="TestAtomHashing" fullname="Erlectric.ErlectricTests.TestAtomHashing" methodname="TestAtomHashing" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="638937988" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.007168" asserts="5" />
+        <test-case id="0-1007" name="TestBinary" fullname="Erlectric.ErlectricTests.TestBinary" methodname="TestBinary" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="1562156102" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.000387" asserts="6" />
+        <test-case id="0-1003" name="TestBool" fullname="Erlectric.ErlectricTests.TestBool" methodname="TestBool" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="2020936512" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.000681" asserts="2" />
+        <test-case id="0-1004" name="TestEmptyList" fullname="Erlectric.ErlectricTests.TestEmptyList" methodname="TestEmptyList" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="1816238981" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.000290" asserts="1" />
+        <test-case id="0-1013" name="TestFloat" fullname="Erlectric.ErlectricTests.TestFloat" methodname="TestFloat" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="1215741373" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.007939" asserts="7" />
+        <test-case id="0-1001" name="TestHeterogenousList" fullname="Erlectric.ErlectricTests.TestHeterogenousList" methodname="TestHeterogenousList" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="1396989908" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.002805" asserts="3" />
+        <test-case id="0-1012" name="TestInt" fullname="Erlectric.ErlectricTests.TestInt" methodname="TestInt" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="361120114" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.001213" asserts="81" />
+        <test-case id="0-1002" name="TestNull" fullname="Erlectric.ErlectricTests.TestNull" methodname="TestNull" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="785523918" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.000429" asserts="1" />
+        <test-suite type="ParameterizedMethod" id="0-1011" name="TestString" fullname="Erlectric.ErlectricTests.TestString" classname="Erlectric.ErlectricTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.009444" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <properties>
+            <property name="_JOINTYPE" value="Sequential" />
+          </properties>
+          <test-case id="0-1008" name="TestString(&quot;nonempty string&quot;)" fullname="Erlectric.ErlectricTests.TestString(&quot;nonempty string&quot;)" methodname="TestString" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="295069013" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.000529" asserts="1" />
+          <test-case id="0-1009" name="TestString(&quot;unicode: ກ ຜ ໄ ໓&quot;)" fullname="Erlectric.ErlectricTests.TestString(&quot;unicode: ກ ຜ ໄ ໓&quot;)" methodname="TestString" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="281406794" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.000091" asserts="1" />
+          <test-case id="0-1010" name="TestString(&quot;&quot;)" fullname="Erlectric.ErlectricTests.TestString(&quot;&quot;)" methodname="TestString" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="843598995" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.000063" asserts="1" />
+        </test-suite>
+        <test-case id="0-1014" name="TestTuple" fullname="Erlectric.ErlectricTests.TestTuple" methodname="TestTuple" classname="Erlectric.ErlectricTests" runstate="Runnable" seed="104063105" result="Passed" start-time="2019-05-16 12:33:32Z" end-time="2019-05-16 12:33:32Z" duration="0.003386" asserts="15" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
